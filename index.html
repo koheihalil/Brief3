@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+        <img id="img1" crossorigin="anonymous" height="600">
+        <pre id="scores1"></pre>
+      </td>
+      <td>
+        <img id="img2" crossorigin="anonymous" height="600" >
+        <pre id="scores2"></pre>
+      </td>
+    </tr>
+  </table>
+
+  <pre id="score"></pre>
+<script src="./api.js"></script>
+<script src="./ml.js"></script>
+<script src="./sketch.js"></script>
+</body>
+</html>
